@@ -2,7 +2,7 @@
 
 A comprehensive entertainment discovery platform built with Next.js, featuring movie and TV show search, watchlist management, and trending content discovery.
 
-## 🎬 Features
+## Features
 
 - **Advanced Search**: Real-time search with debouncing and filtering options
 - **Trending Content**: Daily and weekly trending movies and TV shows
@@ -14,7 +14,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 - **Dark Theme**: Beautiful dark theme with gradient backgrounds
 - **Smooth Animations**: Polished UI with hover effects and transitions
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 13, React 18
 - **Styling**: Tailwind CSS with custom design system
@@ -24,18 +24,18 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 - **Icons**: Lucide React
 - **UI Components**: Custom components with Radix UI primitives
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 16+ and npm/yarn
 - TMDB API key from [The Movie Database](https://www.themoviedb.org/settings/api)
 - OMDB API key from [Open Movie Database](http://www.omdbapi.com/apikey.aspx)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd movie-discovery-app
+   git clone https://github.com/Vinolia-E/tv_show_project.git
+   cd tv_show_project
    ```
 
 2. **Install dependencies**
@@ -60,7 +60,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
    
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── app/                    # Next.js app directory
@@ -85,7 +85,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 └── public/               # Static assets
 ```
 
-## 🔌 API Integration
+## API Integration
 
 ### TMDB API Functions
 - `searchMovies()` - Search for movies and TV shows
@@ -102,7 +102,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 - Graceful degradation when APIs are unavailable
 - Mock data for development and demonstration
 
-## 💾 Data Management
+## Data Management
 
 ### LocalStorage Integration
 - **Watchlist Persistence**: All watchlist data stored locally
@@ -123,7 +123,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 }
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 - **Primary**: Purple/Blue gradient (#667eea to #764ba2)
@@ -169,7 +169,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 - **Error Handling**: Fallback for missing images
 - **Placeholder States**: Loading indicators
 
-## 🔒 Best Practices
+## Best Practices
 
 ### Code Quality
 - **Modular Architecture**: Separation of concerns
@@ -182,7 +182,7 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
 - **Input Validation**: Search query sanitization
 - **CORS Handling**: Proper API request configuration
 
-## 🚀 Deployment
+## Deployment
 
 ### Build for Production
 ```bash
@@ -214,7 +214,7 @@ Modify `lib/api.js` to:
 - Change caching behavior
 - Implement additional data sources
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -233,7 +233,7 @@ Modify `lib/api.js` to:
    - Verify network connectivity
    - Test with different search queries
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -241,11 +241,11 @@ Modify `lib/api.js` to:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [The Movie Database (TMDB)](https://www.themoviedb.org/) for the comprehensive movie data
 - [Open Movie Database (OMDB)](http://www.omdbapi.com/) for additional ratings
