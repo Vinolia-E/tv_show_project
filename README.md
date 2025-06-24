@@ -47,8 +47,8 @@ A comprehensive entertainment discovery platform built with Next.js, featuring m
    
    Create a `.env.local` file in the root directory:
    ```env
-   TMDB_API_KEY=your_tmdb_api_key_here
-   OMDB_API_KEY=your_omdb_api_key_here
+   NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
+   NEXT_PUBLIC_OMDB_API_KEY=your_omdb_api_key_here
    ```
 
 4. **Run the development server**
