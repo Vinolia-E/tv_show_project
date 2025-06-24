@@ -1,4 +1,4 @@
-# MovieFlix - Movie & TV Show Discovery App
+# TV Show Discovery App
 
 A comprehensive entertainment discovery platform built with Next.js, featuring movie and TV show search, watchlist management, and trending content discovery.
 
